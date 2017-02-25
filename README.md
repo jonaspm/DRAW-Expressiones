@@ -11,16 +11,11 @@ Este proyecto es para la clase de Desarrollo Rápido de Aplicaciones Web.
 
 ## Instalación
 Para instalar y ejecutar esta aplicacion:
+
 1.  Clonar el repositorio.
-2.  Dentro del directorio del proyecto ejecutar el comando:
-````
-npm install
-````
-3.  Ya podemos ejecutar el servidor, sin embargo, para mayor comodidad durante el modo desarrollo, instalar **supervisor**:
-````
-npm install supervisor -g
-````
-4.  Finalmente ejecutar `npm start` cada vez que se quiera ejecutar el servidor.
+2.  Dentro del directorio del proyecto ejecutar el comando: `npm install`
+3.  Ya podemos ejecutar el servidor, sin embargo, para mayor comodidad durante el modo desarrollo, instalar **supervisor**: `npm install supervisor -g`
+4.  Finalmente ejecutar: `npm start` cada vez que se quiera ejecutar el servidor.
 
 ## Colaborar
 Sientete libre de realizar 'pull requests'.
