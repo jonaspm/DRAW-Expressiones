@@ -22,8 +22,8 @@ npm install supervisor -g
 ````
 4.  Finalmente ejecutar `npm start` cada vez que se quiera ejecutar el servidor.
 
-# Colaborar
+## Colaborar
 Sientete libre de realizar 'pull requests'.
 
-# Colaboradores
+## Colaboradores
 + Jonás Perusquía Morales
