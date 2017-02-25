@@ -7,7 +7,7 @@ Este proyecto es para la clase de Desarrollo Rápido de Aplicaciones Web.
 ## Uso
 1. Entrar a http://localhost:3000/ desde un navegador web. Se mostrará el mensaje: *Hola!*
 2. Ingresar una expresion de suma al final de la URL. Ejemplo: *http://localhost:3000/2+2*
-/ / El resultado mostrado en pantalla será: *4*
+ >El resultado mostrado en pantalla será: *4*
 
 ## Instalación
 Para instalar y ejecutar esta aplicacion:
