@@ -1,5 +1,6 @@
 var express = require('express')
 var app = express()
+var evaluate = require('./isolated')
 
 app.get('/', (req, res) => {
     
@@ -8,12 +9,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/:exp', (req, res) => {
-  try {
-    let result = eval(req.params.exp)
-    res.send(result.toString())
-  } catch(ex) {
-    res.send(ex.toString())
-  }
+  res.send(evaluate(req.params.exp))
   res.end()
 })
 
